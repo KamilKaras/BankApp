@@ -1,0 +1,48 @@
+C:\Kamil\Kurs_IT\Zajecia_3\Zadania\Aplikacja Banku\Aplikacja Banku\bin\Debug\net5.0\Aplikacja Banku.exe
+C:\Kamil\Kurs_IT\Zajecia_3\Zadania\Aplikacja Banku\Aplikacja Banku\bin\Debug\net5.0\Aplikacja Banku.deps.json
+C:\Kamil\Kurs_IT\Zajecia_3\Zadania\Aplikacja Banku\Aplikacja Banku\bin\Debug\net5.0\Aplikacja Banku.runtimeconfig.json
+C:\Kamil\Kurs_IT\Zajecia_3\Zadania\Aplikacja Banku\Aplikacja Banku\bin\Debug\net5.0\Aplikacja Banku.runtimeconfig.dev.json
+C:\Kamil\Kurs_IT\Zajecia_3\Zadania\Aplikacja Banku\Aplikacja Banku\bin\Debug\net5.0\Aplikacja Banku.dll
+C:\Kamil\Kurs_IT\Zajecia_3\Zadania\Aplikacja Banku\Aplikacja Banku\bin\Debug\net5.0\ref\Aplikacja Banku.dll
+C:\Kamil\Kurs_IT\Zajecia_3\Zadania\Aplikacja Banku\Aplikacja Banku\bin\Debug\net5.0\Aplikacja Banku.pdb
+C:\Kamil\Kurs_IT\Zajecia_3\Zadania\Aplikacja Banku\Aplikacja Banku\obj\Debug\net5.0\Aplikacja Banku.csproj.AssemblyReference.cache
+C:\Kamil\Kurs_IT\Zajecia_3\Zadania\Aplikacja Banku\Aplikacja Banku\obj\Debug\net5.0\Aplikacja Banku.GeneratedMSBuildEditorConfig.editorconfig
+C:\Kamil\Kurs_IT\Zajecia_3\Zadania\Aplikacja Banku\Aplikacja Banku\obj\Debug\net5.0\Aplikacja Banku.AssemblyInfoInputs.cache
+C:\Kamil\Kurs_IT\Zajecia_3\Zadania\Aplikacja Banku\Aplikacja Banku\obj\Debug\net5.0\Aplikacja Banku.AssemblyInfo.cs
+C:\Kamil\Kurs_IT\Zajecia_3\Zadania\Aplikacja Banku\Aplikacja Banku\obj\Debug\net5.0\Aplikacja Banku.csproj.CoreCompileInputs.cache
+C:\Kamil\Kurs_IT\Zajecia_3\Zadania\Aplikacja Banku\Aplikacja Banku\obj\Debug\net5.0\Aplikacja Banku.dll
+C:\Kamil\Kurs_IT\Zajecia_3\Zadania\Aplikacja Banku\Aplikacja Banku\obj\Debug\net5.0\ref\Aplikacja Banku.dll
+C:\Kamil\Kurs_IT\Zajecia_3\Zadania\Aplikacja Banku\Aplikacja Banku\obj\Debug\net5.0\Aplikacja Banku.pdb
+C:\Kamil\Kurs_IT\Zajecia_3\Zadania\Aplikacja Banku\Aplikacja Banku\obj\Debug\net5.0\Aplikacja Banku.genruntimeconfig.cache
+C:\Kamil\Kurs_IT\Zajecia_3\Zadania\Aplikacja Banku — kopia\Aplikacja Banku\bin\Debug\net5.0\Aplikacja Banku.exe
+C:\Kamil\Kurs_IT\Zajecia_3\Zadania\Aplikacja Banku — kopia\Aplikacja Banku\bin\Debug\net5.0\Aplikacja Banku.deps.json
+C:\Kamil\Kurs_IT\Zajecia_3\Zadania\Aplikacja Banku — kopia\Aplikacja Banku\bin\Debug\net5.0\Aplikacja Banku.runtimeconfig.json
+C:\Kamil\Kurs_IT\Zajecia_3\Zadania\Aplikacja Banku — kopia\Aplikacja Banku\bin\Debug\net5.0\Aplikacja Banku.runtimeconfig.dev.json
+C:\Kamil\Kurs_IT\Zajecia_3\Zadania\Aplikacja Banku — kopia\Aplikacja Banku\bin\Debug\net5.0\Aplikacja Banku.dll
+C:\Kamil\Kurs_IT\Zajecia_3\Zadania\Aplikacja Banku — kopia\Aplikacja Banku\bin\Debug\net5.0\ref\Aplikacja Banku.dll
+C:\Kamil\Kurs_IT\Zajecia_3\Zadania\Aplikacja Banku — kopia\Aplikacja Banku\bin\Debug\net5.0\Aplikacja Banku.pdb
+C:\Kamil\Kurs_IT\Zajecia_3\Zadania\Aplikacja Banku — kopia\Aplikacja Banku\obj\Debug\net5.0\Aplikacja Banku.csproj.AssemblyReference.cache
+C:\Kamil\Kurs_IT\Zajecia_3\Zadania\Aplikacja Banku — kopia\Aplikacja Banku\obj\Debug\net5.0\Aplikacja Banku.GeneratedMSBuildEditorConfig.editorconfig
+C:\Kamil\Kurs_IT\Zajecia_3\Zadania\Aplikacja Banku — kopia\Aplikacja Banku\obj\Debug\net5.0\Aplikacja Banku.AssemblyInfoInputs.cache
+C:\Kamil\Kurs_IT\Zajecia_3\Zadania\Aplikacja Banku — kopia\Aplikacja Banku\obj\Debug\net5.0\Aplikacja Banku.AssemblyInfo.cs
+C:\Kamil\Kurs_IT\Zajecia_3\Zadania\Aplikacja Banku — kopia\Aplikacja Banku\obj\Debug\net5.0\Aplikacja Banku.csproj.CoreCompileInputs.cache
+C:\Kamil\Kurs_IT\Zajecia_3\Zadania\Aplikacja Banku — kopia\Aplikacja Banku\obj\Debug\net5.0\Aplikacja Banku.dll
+C:\Kamil\Kurs_IT\Zajecia_3\Zadania\Aplikacja Banku — kopia\Aplikacja Banku\obj\Debug\net5.0\ref\Aplikacja Banku.dll
+C:\Kamil\Kurs_IT\Zajecia_3\Zadania\Aplikacja Banku — kopia\Aplikacja Banku\obj\Debug\net5.0\Aplikacja Banku.pdb
+C:\Kamil\Kurs_IT\Zajecia_3\Zadania\Aplikacja Banku — kopia\Aplikacja Banku\obj\Debug\net5.0\Aplikacja Banku.genruntimeconfig.cache
+C:\Kamil\Kurs_IT\Projekty\BankApp\BankApp\bin\Debug\net5.0\Aplikacja Banku.exe
+C:\Kamil\Kurs_IT\Projekty\BankApp\BankApp\bin\Debug\net5.0\Aplikacja Banku.deps.json
+C:\Kamil\Kurs_IT\Projekty\BankApp\BankApp\bin\Debug\net5.0\Aplikacja Banku.runtimeconfig.json
+C:\Kamil\Kurs_IT\Projekty\BankApp\BankApp\bin\Debug\net5.0\Aplikacja Banku.runtimeconfig.dev.json
+C:\Kamil\Kurs_IT\Projekty\BankApp\BankApp\bin\Debug\net5.0\Aplikacja Banku.dll
+C:\Kamil\Kurs_IT\Projekty\BankApp\BankApp\bin\Debug\net5.0\ref\Aplikacja Banku.dll
+C:\Kamil\Kurs_IT\Projekty\BankApp\BankApp\bin\Debug\net5.0\Aplikacja Banku.pdb
+C:\Kamil\Kurs_IT\Projekty\BankApp\BankApp\obj\Debug\net5.0\Aplikacja Banku.csproj.AssemblyReference.cache
+C:\Kamil\Kurs_IT\Projekty\BankApp\BankApp\obj\Debug\net5.0\Aplikacja Banku.GeneratedMSBuildEditorConfig.editorconfig
+C:\Kamil\Kurs_IT\Projekty\BankApp\BankApp\obj\Debug\net5.0\Aplikacja Banku.AssemblyInfoInputs.cache
+C:\Kamil\Kurs_IT\Projekty\BankApp\BankApp\obj\Debug\net5.0\Aplikacja Banku.AssemblyInfo.cs
+C:\Kamil\Kurs_IT\Projekty\BankApp\BankApp\obj\Debug\net5.0\Aplikacja Banku.csproj.CoreCompileInputs.cache
+C:\Kamil\Kurs_IT\Projekty\BankApp\BankApp\obj\Debug\net5.0\Aplikacja Banku.dll
+C:\Kamil\Kurs_IT\Projekty\BankApp\BankApp\obj\Debug\net5.0\ref\Aplikacja Banku.dll
+C:\Kamil\Kurs_IT\Projekty\BankApp\BankApp\obj\Debug\net5.0\Aplikacja Banku.pdb
+C:\Kamil\Kurs_IT\Projekty\BankApp\BankApp\obj\Debug\net5.0\Aplikacja Banku.genruntimeconfig.cache
