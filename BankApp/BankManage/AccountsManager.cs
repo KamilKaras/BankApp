@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Aplikacja_Banku
 {
@@ -84,37 +82,44 @@ namespace Aplikacja_Banku
             else
             {
                 Console.WriteLine("Podaj kwotę jaką chcesz przelać na konto oszczędnościowe");
-                var interest = int.Parse(Console.ReadLine());
-                var billingAccountSelected = clientAccounts.Where(a => a.TypeName() == "Rozliczeniowe").ToList();
-                var savingAccountSelected = clientAccounts.Where(a => a.TypeName() == "Oszczędnościowe").ToList();
-                var billingAccountList = billingAccountSelected.ConvertAll(a => (BillingAccount)a);
-                billingAccountList.ForEach(a => a.TakeCharche());
-                var savingAccountList = savingAccountSelected.ConvertAll(a => (SavingsAccount)a);
-                if (billingAccountList.Count >= 1 && savingAccountList.Count >= 1)
+                var interest = StringToIntParse(Console.ReadLine());
+                if(interest <=0)
                 {
-                    for (int i = 0; i < savingAccountList.Count; i++)
-                    {
-                        var cielntBillingAccountToInterest = billingAccountList.Where(a => int.Parse(a.GetBallance()) >= interest).ToList();
-                        if (cielntBillingAccountToInterest.Count != 0)
-                        {
-                            for (int j = 0; j < cielntBillingAccountToInterest.Count; j++)
-                            {
-                                savingAccountList[i].SetInterest(interest);
-                                cielntBillingAccountToInterest[j].ChangeBalance(-interest);
-                            }
-                        }
-                        else
-                        {
-                            Console.WriteLine("Brak wystarczających środków na kontach rozliczeniowych, aby wykonać transfer na konto oszczędnościowe");
-                            break;
-                        }
-
-                    }
-                    Console.WriteLine("Transfer zakończony");
+                    Console.WriteLine("Wprowadziłeś błędne dane spróbuj jeszcze raz");
                 }
                 else
                 {
-                    Console.WriteLine("Brak możliwośći przelania pieniędzy na konta oszczędnościowe");
+                    var billingAccountSelected = clientAccounts.Where(a => a.TypeName() == "Rozliczeniowe").ToList();
+                    var savingAccountSelected = clientAccounts.Where(a => a.TypeName() == "Oszczędnościowe").ToList();
+                    var billingAccountList = billingAccountSelected.ConvertAll(a => (BillingAccount)a);
+                    billingAccountList.ForEach(a => a.TakeCharche());
+                    var savingAccountList = savingAccountSelected.ConvertAll(a => (SavingsAccount)a);
+                    if (billingAccountList.Count >= 1 && savingAccountList.Count >= 1)
+                    {
+                        for (int i = 0; i < savingAccountList.Count; i++)
+                        {
+                            var cielntBillingAccountToInterest = billingAccountList.Where(a => int.Parse(a.GetBallance()) >= interest).ToList();
+                            if (cielntBillingAccountToInterest.Count != 0)
+                            {
+                                for (int j = 0; j < cielntBillingAccountToInterest.Count; j++)
+                                {
+                                    savingAccountList[i].SetInterest(interest);
+                                    cielntBillingAccountToInterest[j].ChangeBalance(-interest);
+                                }
+                            }
+                            else
+                            {
+                                Console.WriteLine("Brak wystarczających środków na kontach rozliczeniowych, aby wykonać transfer na konto oszczędnościowe");
+                                break;
+                            }
+
+                        }
+                        Console.WriteLine("Transfer zakończony");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Brak możliwośći przelania pieniędzy na konta oszczędnościowe");
+                    }
                 }
             }
         }
@@ -129,7 +134,7 @@ namespace Aplikacja_Banku
             else
             {
                 Console.WriteLine("Podaj kwotę do wpłaty: ");
-                var valueToDeposit = int.Parse(Console.ReadLine());
+                var valueToDeposit = StringToIntParse(Console.ReadLine());
                 if (valueToDeposit<=0)
                 {
                     Console.WriteLine("Wprowadziłeś błędne dane spróbuj jeszcze raz");
@@ -156,7 +161,7 @@ namespace Aplikacja_Banku
             else
             {
                 Console.WriteLine("Podaj kwotę do wypłaty: ");
-                var valueToWithdraw = int.Parse(Console.ReadLine());
+                var valueToWithdraw = StringToIntParse(Console.ReadLine());
                 if (valueToWithdraw <= 0)
                 {
                     Console.WriteLine("Wprowadziłeś błędne dane spróbuj jeszcze raz");
@@ -175,7 +180,7 @@ namespace Aplikacja_Banku
                         Console.WriteLine("Podaj Id konta z którego zrobimy wypłate");
                         var decision = Console.ReadLine();
                         var accountToWithdraw = accountPosibleToWithdraw.Where(a => a.Id == int.Parse(decision)).ToList();
-                        accountPosibleToWithdraw.ForEach(a => a.ChangeBalance(-valueToWithdraw));
+                        accountToWithdraw.ForEach(a => a.ChangeBalance(-valueToWithdraw));
                         Console.WriteLine("Dziękujemy za wypłatę, wcisnij dowolny przycisk aby kontynuować");
                     }
                 }
@@ -192,6 +197,15 @@ namespace Aplikacja_Banku
             Console.Clear();
             return pesel;
         }
-        
+        protected static int StringToIntParse(string toParse)
+        {
+            int number;
+            bool success = Int32.TryParse(toParse, out number);
+            if(success)
+            {
+                return number;
+            }
+            return 0;
+        }
     }
 }
